@@ -43,6 +43,7 @@ export function Header() {
           type="button"
           onClick={() => {
             signOut(auth)
+            sessionStorage.setItem('@habits:session-1.0.0', null)
             navigate('/login')
           }}>
           <SignOut size={30} className="text-violet-500"/>

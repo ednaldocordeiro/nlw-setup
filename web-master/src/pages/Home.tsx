@@ -13,7 +13,9 @@ export function Home() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    if (!user) {
+    const session = sessionStorage.getItem('@habits:session-1.0.0')
+
+    if (!session) {
       navigate('/login')
     }
   }, [user])
