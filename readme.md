@@ -5,6 +5,7 @@ Criação de aplicação Web, Mobile e Server chamada Habit.
 ## Sobre o projeto
 
 Projeto criado durante o evento NLW Setup, criado pela Rocketseat. 
+<img src="preview.png" alt="preview" />
 
 ### Tecnologias usadas
 
