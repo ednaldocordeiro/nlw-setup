@@ -12,7 +12,7 @@ import {
 import { Loading } from './src/components/Loading';
 import { Routes } from './src/routes';
 
-export default function App() {
+export function App() {
 
   const [fontsLoaded] = useFonts({
     Inter_400Regular,

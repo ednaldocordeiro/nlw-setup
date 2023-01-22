@@ -7,6 +7,8 @@ import { Header } from '../components/Header';
 import { Loading } from '../components/Loading';
 import { api } from '../lib/axios';
 
+import auth from '@react-native-firebase/auth'
+
 import { generateRangeDatesFromYearStart } from '../utils/generate-range-between-dates';
 
 const weekDays = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];

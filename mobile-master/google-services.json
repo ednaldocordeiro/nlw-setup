@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "574810934720",
+    "project_id": "habits-nlw",
+    "storage_bucket": "habits-nlw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574810934720:android:9340ab09ddb162a7b34c25",
+        "android_client_info": {
+          "package_name": "com.habit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574810934720-3ff66r50quurfdevt986ro3vv1pu4ss9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPaVrjbsFtRrQz_6JJ1m8sELptxcZ8vRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574810934720-3ff66r50quurfdevt986ro3vv1pu4ss9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "574810934720-knq5cilli0bf7sfi5ufvibd5bbj17vdd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.habit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
