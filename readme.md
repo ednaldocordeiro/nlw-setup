@@ -27,3 +27,6 @@ Projeto criado durante o evento NLW Setup, criado pela Rocketseat.
   - Tailwind
   - dayjs
   - React native Reanimated
+
+- **Extra**
+  - Firebase (web e mobile)
