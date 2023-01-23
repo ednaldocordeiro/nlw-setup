@@ -35,6 +35,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
       if (user) {
         setUser(user);
+        sessionStorage.setItem('@habits:session-1.0.0', user.user.uid)
         navigate('/');
       }
     } catch (error) {
