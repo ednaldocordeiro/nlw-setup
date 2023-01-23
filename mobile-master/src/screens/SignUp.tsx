@@ -25,6 +25,7 @@ export function SignUp() {
       const user = await auth().createUserWithEmailAndPassword(data.email, data.password)
 
       if (user) {
+        await auth().createUserWithEmailAndPassword(data.email, data.password)
         navigation.navigate('home')
       }
     } catch (error) {
